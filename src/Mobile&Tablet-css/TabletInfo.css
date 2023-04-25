@@ -1,0 +1,100 @@
+@media (min-device-width: 768px) and (max-device-width: 1023px){ 
+	.Info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	.img {
+		filter: grayscale(100%);
+		background-image: url("/src/images/Sea.png");
+		background-repeat: no-repeat;
+		background-size: 1679px Auto;
+		margin-top: 100px;
+		width: 1400px;
+			height: 916px;
+			box-shadow: 0px 0px 45px 30px rgba(0,0,0,1)inset;
+			border-radius: 10px;
+	}
+	
+	.blackShark {
+		position: absolute;
+		background-image: url("/src/images/blackShark.jpeg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 390px;
+		height: 260px;
+		margin-bottom: 200px;
+		margin-right: 750px;
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+		filter: grayscale(80%);
+	}
+	
+	li {
+		list-style-type: none; /* Прячем исходные маркеры */
+	 }
+	 li::before {
+		color: rgb(150, 150, 150); /* Цвет маркера */
+		content: "▪"; /* Сам маркер */
+		padding-right: 10px; /* Расстояние от маркера до текста */
+	 }
+	
+	.Classify {
+		position: absolute;
+		color: aliceblue;
+		margin-top: 300px;
+		margin-right: 900px;
+		width: 300px;
+		font-size: 21px;
+		text-shadow: 5px 5px 3px black;
+		word-spacing: 4px;
+	}
+	
+	.TextInfo {
+		position: absolute;
+		color: aliceblue;
+		font-size: 77px;
+		margin-left: 315px;
+		margin-bottom: 615px;
+		z-index: 2;
+	}
+	
+	.MainInfo {
+		position: absolute;
+		text-shadow: 0px 0px 0px black;
+		color: rgb(0, 0, 0);
+		width: 650px;
+		margin-bottom: 22px;
+		margin-left: 550px;
+		font-size: 21px;
+		border: 1px solid black;
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+		padding: 20px;
+		background-color: rgb(255, 255, 255);
+	}
+	
+	.IconShark {
+		background: url("/src/images/iconShark.png");
+		position: absolute;
+		background-size: contain;
+		width: 170px;
+		height: 170px;
+		margin-bottom: 400px;
+		margin-right: 90px;
+		transform: rotate(35deg);
+	}
+	
+	.IconShark1 {
+		background: url("/src/images/iconShark.png");
+		position: absolute;
+		background-size: contain;
+		width: 130px;
+		height: 130px;
+		margin-top: 370px;
+		margin-left: 1164px;
+		transform: rotate(235deg);
+	}
+	
+	
+	}

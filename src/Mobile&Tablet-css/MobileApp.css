@@ -1,0 +1,74 @@
+@media only screen and (max-device-width: 767px) { 
+	html { overflow-x: hidden; }
+
+	body {
+		background-color: rgb(0, 0, 0);
+		margin: 0;
+		display: flex;
+		/* justify-content: center; */
+		/* align-items: center; */
+		/* margin: auto; */
+		/* background-position: center; */
+		/* background-attachment: fixed; */
+		/* background-size: cover; */
+	}
+	
+	header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.shark {
+		width: 1300px;
+		height: 800px;
+		background: url("/src/images/background.jpg");
+		background-repeat: no-repeat;
+		background-size: 1300px 800px;
+		box-shadow:0px -20px 80px 85px rgba(0,0,0,1)inset;
+		border-radius: 100px;
+	}
+
+	.shadow {
+		margin-left: -1400px;
+	 position: absolute; 
+	 width: 1400px;
+	 /* border: 3px solid;
+	 border-color: rgb(255, 255, 255);  */
+ }
+ 
+ 
+ .text1 {
+	 width: 500px;
+	 font-size: 20px;
+	 margin-left: 770px;
+	 margin-top: 320px;
+	 position: absolute;
+	 color: aliceblue;
+	 text-shadow: 5px 5px 3px black;
+	 /* padding: 0px 280px 0px 0px; */
+	 
+ 
+ }
+ 
+ .Icons {
+	 position: absolute;
+	 width: 1050px;
+	 top: 65px;
+	 /* display: flex; */
+ 
+ }
+ 
+ .icon img {
+	 border-radius: 100px;
+	 width: 100px;
+	 
+	 float:left;
+	 
+ }
+ 
+ .icon1 img {
+	 width: 100px;
+	 float: right;
+ }
+}
